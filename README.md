@@ -15,6 +15,7 @@ coffee_shop/
     ├── customer.py     # Customer: name, orders, coffees
     ├── coffee.py       # Coffee: name, orders, customers
     ├── order.py        # Order: customer, coffee, price
+| -- README.md
 
 
 # Made By Neville Ng'ang'a

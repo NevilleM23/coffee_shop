@@ -9,7 +9,7 @@ A Python implementation of a coffee shop with `Customer`, `Coffee`, and `Order` 
    pipenv install && pipenv shell
    pipenv install pytest 
 
-# file Structure
+# File Structure
 coffee_shop/
 ├── lib/
 │   ├── customer.py     # Customer: name, orders, coffees

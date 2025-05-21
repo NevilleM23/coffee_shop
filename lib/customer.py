@@ -27,4 +27,16 @@ class customer:
         return Order(self.coffee, price) 
     
     @classmethod
-    
+    def most_aficionado (cls, coffee):
+        if not isinstance(coffee, Coffee):
+            raise TypeErrer("Must be of type Coffee")
+
+        coffee_orders = [o for o in Order.all if o.coffee == coffee]
+
+        if not coffee_orders:
+            return None
+
+        return max(
+            set(o.customer for o in coffee_orders),
+            key = lambda c:sum(o.price for o in coffee_rders if o.custmer == c)
+        )

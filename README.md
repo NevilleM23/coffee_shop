@@ -11,11 +11,11 @@ A Python implementation of a coffee shop with `Customer`, `Coffee`, and `Order` 
 
 # file Structure
 coffee_shop/
-|-- lib
-    ├── customer.py     # Customer: name, orders, coffees
-    ├── coffee.py       # Coffee: name, orders, customers
-    ├── order.py        # Order: customer, coffee, price
-| -- README.md
+├── lib/
+│   ├── customer.py     # Customer: name, orders, coffees
+│   ├── coffee.py       # Coffee: name, orders, customers
+│   └── order.py        # Order: customer, coffee, price
+└── README.md
 
 
-# Made By Neville Ng'ang'a
+### Made By Neville Ng'ang'a
